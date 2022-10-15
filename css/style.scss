@@ -1,0 +1,61 @@
+// variables colors
+$background: #EDE9DD;
+$base-color: #222222;
+$link-color: #FE8DF2;
+
+body {
+  background: $background;
+  color: $base-color;
+  font-family: 'Inter', sans-serif;
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  color: $link-color;
+  font-size: 2rem;
+
+  span {
+    color: transparent;
+    -webkit-text-stroke: 1px $link-color;
+  }
+}
+
+.intro {
+  display: flex;
+
+  div {
+    width: 50%;
+
+    &:first-child {
+      margin-right: 2rem;
+    }
+  }
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+
+  p {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:hover {
+      background-color: aquamarine;
+      color: $link-color;
+      -webkit-text-stroke: 1px $base-color;
+      text-shadow: 5px 5px 0px $background;
+    }
+  }
+}

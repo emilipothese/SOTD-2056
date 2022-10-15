@@ -1,0 +1,51 @@
+body {
+  background: #EDE9DD;
+  color: #222222;
+  font-family: "Inter", sans-serif;
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  color: #FE8DF2;
+  font-size: 2rem;
+}
+h2 span {
+  color: transparent;
+  -webkit-text-stroke: 1px #FE8DF2;
+}
+
+.intro {
+  display: flex;
+}
+.intro div {
+  width: 50%;
+}
+.intro div:first-child {
+  margin-right: 2rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+.skills p {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.skills p:hover {
+  background-color: aquamarine;
+  color: #FE8DF2;
+  -webkit-text-stroke: 1px #222222;
+  text-shadow: 5px 5px 0px #EDE9DD;
+}/*# sourceMappingURL=style.css.map */
