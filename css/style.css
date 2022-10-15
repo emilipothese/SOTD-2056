@@ -24,13 +24,13 @@ h2 span {
   -webkit-text-stroke: 1px #FE8DF2;
 }
 
-.intro {
+.col-2 {
   display: flex;
 }
-.intro div {
+.col-2 div {
   width: 50%;
 }
-.intro div:first-child {
+.col-2 div:first-child {
   margin-right: 2rem;
 }
 
@@ -48,4 +48,12 @@ h2 span {
   color: #FE8DF2;
   -webkit-text-stroke: 1px #222222;
   text-shadow: 5px 5px 0px #EDE9DD;
+}
+
+footer {
+  text-align: center;
+  color: rgba(34, 34, 34, 0.5);
+}
+footer a {
+  color: #222222;
 }/*# sourceMappingURL=style.css.map */

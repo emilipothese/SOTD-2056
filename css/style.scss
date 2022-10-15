@@ -30,7 +30,7 @@ h2 {
   }
 }
 
-.intro {
+.col-2 {
   display: flex;
 
   div {
@@ -57,5 +57,14 @@ h2 {
       -webkit-text-stroke: 1px $base-color;
       text-shadow: 5px 5px 0px $background;
     }
+  }
+}
+
+footer {
+  text-align: center;
+  color: rgba($base-color , 0.5);
+
+  a {
+    color: $base-color;
   }
 }
