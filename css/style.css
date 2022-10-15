@@ -8,6 +8,17 @@ body {
   margin: 0 auto;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header div {
+  display: flex;
+}
+header div p:first-child {
+  margin-right: 1rem;
+}
+
 h1 {
   font-size: 3rem;
   text-transform: uppercase;
@@ -36,10 +47,20 @@ section {
   font-weight: 700;
 }
 
+.contact {
+  text-align: center;
+}
+.contact a {
+  background-color: #222222;
+  border-radius: 100%;
+  padding: 4.5rem 2rem;
+  color: white;
+}
+
 footer {
   text-align: center;
   color: rgba(34, 34, 34, 0.5);
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 footer a {
   color: #222222;
