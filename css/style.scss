@@ -1,13 +1,14 @@
-// variables colors
+/****************** Variables **********************/
 $background: #EDE9DD;
 $base-color: #222222;
 $link-color: #FE8DF2;
 
+/****************** Mobile first **********************/
 body {
   background: $background;
   color: $base-color;
   font-family: 'Inter', sans-serif;
-  width: 900px;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -28,6 +29,39 @@ h2 {
     color: transparent;
     -webkit-text-stroke: 1px $link-color;
   }
+}
+
+section {
+  margin-top: 10rem;
+}
+
+.skills {
+  p {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
+footer {
+  text-align: center;
+  color: rgba($base-color , 0.5);
+  margin-top: 5rem;
+
+  a {
+    color: $base-color;
+  }
+}
+
+/****************** Media queries **********************/
+
+@media (min-width: 768px) {
+  body {
+  width: 700px;
+}
+
+section {
+  margin-top: 10rem;
 }
 
 .col-2 {
@@ -59,12 +93,10 @@ h2 {
     }
   }
 }
+}
 
-footer {
-  text-align: center;
-  color: rgba($base-color , 0.5);
-
-  a {
-    color: $base-color;
-  }
+@media (min-width: 1024px) {
+body {
+  width: 900px;
+}
 }

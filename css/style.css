@@ -1,8 +1,10 @@
+/****************** Variables **********************/
+/****************** Mobile first **********************/
 body {
   background: #EDE9DD;
   color: #222222;
   font-family: "Inter", sans-serif;
-  width: 900px;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -24,36 +26,60 @@ h2 span {
   -webkit-text-stroke: 1px #FE8DF2;
 }
 
-.col-2 {
-  display: flex;
-}
-.col-2 div {
-  width: 50%;
-}
-.col-2 div:first-child {
-  margin-right: 2rem;
+section {
+  margin-top: 10rem;
 }
 
-.skills {
-  display: flex;
-  justify-content: space-around;
-}
 .skills p {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 700;
 }
-.skills p:hover {
-  background-color: aquamarine;
-  color: #FE8DF2;
-  -webkit-text-stroke: 1px #222222;
-  text-shadow: 5px 5px 0px #EDE9DD;
-}
 
 footer {
   text-align: center;
   color: rgba(34, 34, 34, 0.5);
+  margin-top: 5rem;
 }
 footer a {
   color: #222222;
+}
+
+/****************** Media queries **********************/
+@media (min-width: 768px) {
+  body {
+    width: 700px;
+  }
+  section {
+    margin-top: 10rem;
+  }
+  .col-2 {
+    display: flex;
+  }
+  .col-2 div {
+    width: 50%;
+  }
+  .col-2 div:first-child {
+    margin-right: 2rem;
+  }
+  .skills {
+    display: flex;
+    justify-content: space-around;
+  }
+  .skills p {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .skills p:hover {
+    background-color: aquamarine;
+    color: #FE8DF2;
+    -webkit-text-stroke: 1px #222222;
+    text-shadow: 5px 5px 0px #EDE9DD;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    width: 900px;
+  }
 }/*# sourceMappingURL=style.css.map */
