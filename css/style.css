@@ -45,6 +45,28 @@ section {
   text-align: right;
 }
 
+.visible-lg {
+  display: none;
+}
+
+.visible-sm div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.visible-sm div p {
+  color: #FE8DF2;
+  -webkit-text-stroke: 1px #222222;
+  text-shadow: 3px 3px 0px aquamarine;
+}
+.visible-sm div img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 1.5rem;
+}
+
 .skills p {
   font-size: 2rem;
   text-transform: uppercase;
@@ -99,16 +121,19 @@ footer a {
   .col-2 div:first-child {
     margin-right: 2rem;
   }
-  .skills {
+  .visible-sm {
+    display: none;
+  }
+  .visible-lg {
     display: flex;
     justify-content: space-around;
   }
-  .skills p {
+  .visible-lg p {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
   }
-  .skills p:hover {
+  .visible-lg p:hover {
     background-color: aquamarine;
     color: #FE8DF2;
     -webkit-text-stroke: 1px #222222;

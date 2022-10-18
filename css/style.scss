@@ -52,6 +52,32 @@ section {
   text-align: right;
 }
 
+.visible-lg {
+  display: none;
+}
+
+.visible-sm {
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+    p {
+      color: $link-color;
+      -webkit-text-stroke: 1px $base-color;
+      text-shadow: 3px 3px 0px aquamarine;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: 0 1.5rem;
+    }
+  }
+}
+
 .skills {
   p {
     font-size: 2rem;
@@ -117,7 +143,11 @@ section {
   }
 }
 
-.skills {
+.visible-sm {
+  display: none;
+}
+
+.visible-lg {
   display: flex;
   justify-content: space-around;
 
