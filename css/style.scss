@@ -45,11 +45,19 @@ h2 {
 }
 
 section {
-  margin-top: 10rem;
+  &:first-child {
+    margin-top: 5rem;
+  }
+
+  &:not(:first-child) {
+    margin-top: 10rem;
+  }
 }
 
 .scroll-lottie {
-  text-align: right;
+  display: flex;
+  justify-content: right;
+  margin-top: 6rem;
 }
 
 .visible-lg {
@@ -128,7 +136,7 @@ body {
 }
 
 section {
-  margin-top: 10rem;
+    margin-top: 15rem;
 }
 
 .col-2 {
@@ -141,6 +149,10 @@ section {
       margin-right: 2rem;
     }
   }
+}
+
+.scroll-lottie {
+  justify-content: center;
 }
 
 .visible-sm {

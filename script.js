@@ -37,7 +37,7 @@ LottieInteractivity.create({
     player:'#magic-hand',
     actions: [
         {
-            visibility:[0.5,1],
+            visibility:[0.2,1],
             type: "seek",
             frames: [0, 24],
         },

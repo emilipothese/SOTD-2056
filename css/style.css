@@ -37,12 +37,17 @@ h2 span {
   -webkit-text-stroke: 1px #FE8DF2;
 }
 
-section {
+section:first-child {
+  margin-top: 5rem;
+}
+section:not(:first-child) {
   margin-top: 10rem;
 }
 
 .scroll-lottie {
-  text-align: right;
+  display: flex;
+  justify-content: right;
+  margin-top: 6rem;
 }
 
 .visible-lg {
@@ -110,7 +115,7 @@ footer a {
     z-index: 1000;
   }
   section {
-    margin-top: 10rem;
+    margin-top: 15rem;
   }
   .col-2 {
     display: flex;
@@ -120,6 +125,9 @@ footer a {
   }
   .col-2 div:first-child {
     margin-right: 2rem;
+  }
+  .scroll-lottie {
+    justify-content: center;
   }
   .visible-sm {
     display: none;
