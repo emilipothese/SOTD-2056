@@ -18,7 +18,11 @@ LottieInteractivity.create({
  */
 
 // Mouse Follower image reveal
-const cursor = new MouseFollower();
+const cursor = new MouseFollower({
+  container: document.documentElement,
+  speed: 0.2
+});
+
 const cat = document.querySelector('.cat');
 
 cat.addEventListener('mouseenter', () => {
