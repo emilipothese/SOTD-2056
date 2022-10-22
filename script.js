@@ -19,12 +19,32 @@ LottieInteractivity.create({
 
 // Mouse Follower image reveal
 const cursor = new MouseFollower();
-const el = document.querySelector('.my-element');
+const cat = document.querySelector('.cat');
 
-el.addEventListener('mouseenter', () => {
-    cursor.setImg('/img/example.png')
+cat.addEventListener('mouseenter', () => {
+    cursor.setImg('img/cat.gif')
 });
 
-el.addEventListener('mouseleave', () => {
+cat.addEventListener('mouseleave', () => {
+    cursor.removeImg()
+});
+
+const dog = document.querySelector('.dog');
+
+dog.addEventListener('mouseenter', () => {
+    cursor.setImg('img/dog.gif')
+});
+
+dog.addEventListener('mouseleave', () => {
+    cursor.removeImg()
+});
+
+const goat = document.querySelector('.goat');
+
+goat.addEventListener('mouseenter', () => {
+    cursor.setImg('img/goat.gif')
+});
+
+goat.addEventListener('mouseleave', () => {
     cursor.removeImg()
 });
