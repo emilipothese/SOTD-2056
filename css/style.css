@@ -134,20 +134,9 @@ footer a {
   }
   .visible-lg {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-  .visible-lg ul {
-    list-style-type: none;
-    display: flex;
     justify-content: space-between;
   }
-  .visible-lg a {
-    text-decoration: none;
-    margin: 1rem 2rem;
-  }
-  .visible-lg .img-hover-effect-link {
+  .visible-lg div p {
     padding: 0 1rem;
     font-size: 2rem;
     text-transform: uppercase;
@@ -155,32 +144,10 @@ footer a {
     color: #222222;
     transition: 0.3s ease-in-out;
   }
-  .visible-lg .img-hover-effect-link:hover {
+  .visible-lg div p:hover {
     color: #FE8DF2;
     -webkit-text-stroke: 1px #222222;
     text-shadow: 5px 5px 0px #EDE9DD;
-  }
-  .visible-lg .img-wrapper {
-    position: absolute;
-    left: -125px;
-    top: 500px;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    overflow: hidden;
-    pointer-events: none;
-    z-index: -1;
-    visibility: hidden;
-    transform: scale(0.3);
-  }
-  .visible-lg .img-placeholder, .visible-lg .img-placeholder img {
-    height: 100%;
-    width: 100%;
-  }
-  .visible-lg .img-placeholder img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    display: block;
   }
 }
 @media (min-width: 1024px) {

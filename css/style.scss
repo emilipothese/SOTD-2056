@@ -161,22 +161,9 @@ section {
 
 .visible-lg {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  justify-content: space-between;
 
-  ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  a {
-    text-decoration: none;
-    margin: 1rem 2rem;
-  }
-
-  .img-hover-effect-link{
+  div p{
     padding: 0 1rem;
     font-size: 2rem;
     text-transform: uppercase;
@@ -189,30 +176,6 @@ section {
       -webkit-text-stroke: 1px $base-color;
       text-shadow: 5px 5px 0px $background;
     }
-  }
-
-  .img-wrapper{
-    position: absolute;
-    left: -125px;
-    top: 500px;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    overflow: hidden;
-    pointer-events: none;
-    z-index: -1;
-    visibility: hidden;
-    transform: scale(0.3);
-  }
-
-  .img-placeholder, .img-placeholder img{
-    height: 100%;
-    width: 100%;
-  }
-
-  .img-placeholder img{
-    object-fit: cover;
-    display: block;
   }
 }
 
