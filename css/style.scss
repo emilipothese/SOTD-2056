@@ -57,7 +57,7 @@ section {
     margin-top: 10rem;
   }
 
-  .project__image {
+  .project__image img {
     max-width: 100%;
   }
 }
@@ -149,15 +149,17 @@ section {
 
 .col-2 {
   display: flex;
+  margin-top: 3rem;
 
   div {
     width: 50%;
 
-    &:first-child {
-      margin-right: 2rem;
+    &:not(:first-child) {
+      margin-top: 6rem;
     }
 
-    img {
+    .project__image img {
+      margin-top: 1rem;
       max-width: 100%;
     }
   }

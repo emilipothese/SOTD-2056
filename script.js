@@ -20,7 +20,7 @@ LottieInteractivity.create({
 // Mouse Follower image reveal
 const cursor = new MouseFollower({
   container: document.documentElement,
-  speed: 0.2
+  speed: 0.3
 });
 
 const cat = document.querySelector('.cat');
@@ -51,4 +51,44 @@ goat.addEventListener('mouseenter', () => {
 
 goat.addEventListener('mouseleave', () => {
     cursor.removeImg()
+});
+
+const project1 = document.querySelector('.project__image--1');
+
+project1.addEventListener('mouseenter', () => {
+    cursor.setText('View project');
+});
+
+project1.addEventListener('mouseleave', () => {
+    cursor.removeText();
+});
+
+const project2 = document.querySelector('.project__image--2');
+
+project2.addEventListener('mouseenter', () => {
+    cursor.setText('View photo');
+});
+
+project2.addEventListener('mouseleave', () => {
+    cursor.removeText();
+});
+
+const project3 = document.querySelector('.project__image--3');
+
+project3.addEventListener('mouseenter', () => {
+    cursor.setText('View code');
+});
+
+project3.addEventListener('mouseleave', () => {
+    cursor.removeText();
+});
+
+const project4 = document.querySelector('.project__image--4');
+
+project4.addEventListener('mouseenter', () => {
+    cursor.setText('View project');
+});
+
+project4.addEventListener('mouseleave', () => {
+    cursor.removeText();
 });
