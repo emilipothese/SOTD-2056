@@ -47,6 +47,9 @@ section:first-child {
 section:not(:first-child) {
   margin-top: 10rem;
 }
+section .project__image {
+  max-width: 100%;
+}
 
 .scroll-lottie {
   display: flex;
@@ -129,6 +132,9 @@ footer a {
   }
   .col-2 div:first-child {
     margin-right: 2rem;
+  }
+  .col-2 div img {
+    max-width: 100%;
   }
   .scroll-lottie {
     justify-content: center;
