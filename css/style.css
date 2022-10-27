@@ -16,12 +16,6 @@ header {
   display: flex;
   justify-content: space-between;
 }
-header div {
-  display: flex;
-}
-header div p:first-child {
-  margin-right: 1rem;
-}
 
 h1 {
   font-size: 4rem;
